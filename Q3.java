@@ -16,7 +16,8 @@ public class Q3 {
     int index = Arrays.binarySearch(computerTerms, "keyboard");
     if (index >= 0) {
       System.out.println("keyboard is found at index: " + index);
-    } else {
+    } 
+    else {
       System.out.println("keyboard is not found");
     }
   }
